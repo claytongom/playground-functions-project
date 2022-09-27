@@ -21,9 +21,10 @@ function splitSentence(frase) {
   }  
   
 // Desafio 4
-
-function concatName() {
- 
+function concatName(string) {
+  let primeiraString = string[0];
+  let ultimaString = string[string.length -1];
+  return `${ultimaString}, ${primeiraString}`
 }
   
 // Desafio 5
