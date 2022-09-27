@@ -10,28 +10,32 @@ function compareTrue(param1, param2) {
 
 // Desafio 2
 
-function calcArea(base, altura) {clearImmediate
+function calcArea(base, altura) {
  return (base * altura) / 2;
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
-}
-
+function splitSentence(frase) {
+  let resultado = frase.split(" ");
+  return resultado;
+  }  
+  
 // Desafio 4
-function concatName() {
-  // seu código aqui
-}
 
+function concatName() {
+ 
+}
+  
 // Desafio 5
 function footballPoints() {
   // seu código aqui
+
 }
 
 // Desafio 6
 function highestCount() {
   // seu código aqui
+
 }
 
 // Desafio 7
